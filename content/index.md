@@ -1,5 +1,3 @@
 ---
-title: SASS demo
-layout: index.html
+title: Home
 ---
-
