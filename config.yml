@@ -1,6 +1,6 @@
 site:
-  title: PHPoole
+  title: Cecil
   baseline: An easy and lightweight static website generator!
-  baseurl: http://phpoole.org/
+  baseurl: https://cecil.app/
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   language: en

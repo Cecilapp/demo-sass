@@ -1,1 +1,5 @@
-# Sass-demo
+# Cecil Sass demo
+
+```bash
+cecil serve
+```
