@@ -1,6 +1,6 @@
 site:
   title: Cecil
-  baseline: An easy and lightweight static website generator!
+  baseline: "An easy and lightweight static website generator!"
   baseurl: https://sass-demo.cecil.app/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  language: en-us
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  language: en
