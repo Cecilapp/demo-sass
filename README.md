@@ -1,6 +1,6 @@
 # Sass-demo
 
-> Saas demo for the Cecil static site generator.
+> Sass demo for the [Cecil](https://cecil.app) static site generator.
 
 ```bash
 curl -SOL https://cecil.app/cecil.phar
