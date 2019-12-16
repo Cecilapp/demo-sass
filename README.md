@@ -1,8 +1,8 @@
-# Sass-demo
+# Sass demo
 
-> Sass demo for the [Cecil](https://cecil.app) static site generator.
+> [Sass](https://sass-lang.com) demo for the [Cecil](https://cecil.app) static site generator.
 
 ```bash
-curl -SOL https://cecil.app/cecil.phar
+curl -LO https://cecil.app/cecil.phar
 php cecil.phar serve
 ```
