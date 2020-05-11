@@ -1,8 +1,5 @@
-title: Cecil
-baseline: "An easy and lightweight static website generator!"
 baseurl: https://demo-sass.cecil.app/
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-assets:
-  sass:
-    variables:
-      primary: '#3b6777'
+#assets:
+#  sass:
+#    variables:
+#      primary: '#3b6777'
