@@ -1,2 +1,2 @@
 [context.alt.environment]
-  CECIL_ASSETS_VARIABLES_PRIMARY = "#3b6777" # https://encycolorpedia.fr/3b6777
+  CECIL_ASSETS_SASS_VARIABLES_PRIMARY = "#3b6777" # https://encycolorpedia.fr/3b6777
