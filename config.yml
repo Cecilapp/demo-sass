@@ -1,5 +1,5 @@
 baseurl: https://demo-sass.cecil.app/
-#assets:
-#  compile:
-#    variables:
-#      primary: '#3b6777'
+assets:
+  compile:
+    variables:
+      primary: '#F05F40' # default color, set here to be overriten in an other context with an env. variable.
