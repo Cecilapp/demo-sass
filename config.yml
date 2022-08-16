@@ -1,5 +1,5 @@
 baseurl: https://demo-sass.cecil.app/
-assets:
-  sass:
-    variables:
-      primary: '#3b6777'
+#assets:
+#  compile:
+#    variables:
+#      primary: '#3b6777'
