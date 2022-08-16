@@ -1,2 +1,17 @@
+[build]
+  publish = "_site"
+  command = "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
+
+[build.environment]
+  #PHP_VERSION = "7.4"
+  #PHP_VERSION = "8.0"
+  CECIL_CACHE_DIR = "/opt/build/cache/"
+
+[context.production.environment]
+  CECIL_ENV = "production"
+
+[context.deploy-preview.environment]
+  CECIL_ENV = "preview"
+
 [context.alt.environment]
   CECIL_ASSETS_COMPILE_VARIABLES_PRIMARY = "#3b6777"
