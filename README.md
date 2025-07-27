@@ -4,7 +4,7 @@
 
 ```bash
 curl -LO https://cecil.app/cecil.phar
-php cecil.phar serve
+php cecil.phar serve --clear-cache=css
 ```
 
 - Color #1: <https://demo-sass.cecil.app/>
