@@ -14,7 +14,7 @@ curl -LO https://cecil.app/cecil.phar
 php cecil.phar serve --clear-cache=css
 ```
 
-## Onlie demos
+## Online demos
 
 - Color #1: <https://demo-sass.cecil.app>
 - Color #2: <https://alt.demo-sass.cecil.app>
