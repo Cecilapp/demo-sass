@@ -2,4 +2,4 @@ baseurl: https://demo-sass.cecil.app/
 assets:
   compile:
     variables:
-      primary: '#F05F40' # default color, set here to be overriten in an other context with an env. variable.
+      primary: '#F05F40' # default color, set here to be overridden in another context with an env. variable.
