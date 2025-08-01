@@ -18,7 +18,8 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
-      - name: Install Bootstrap
+      - name: Install package dependencies
+        if: ${{ hashFiles('static/package.json') != '' }}
         working-directory: static
         run: npm install
       - name: Setup PHP
