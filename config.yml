@@ -1,4 +1,4 @@
-baseurl: https://demo-sass.cecil.app/
+baseurl: https://cecilapp.github.io/demo-sass/
 assets:
   compile:
     variables:
