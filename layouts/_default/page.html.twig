@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    {{- include('partials/metatags.html.twig') ~}}
     <!-- Bootstrap core CSS -->
     <link href="{{ url(asset('vendor/bootstrap/css/bootstrap.css')) }}" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -15,7 +14,6 @@
     <link href="{{ url(asset('css/magnific-popup.css')) }}" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{ url(asset('scss/creative.scss')|to_css) }}" rel="stylesheet">
-    {{- include('partials/metatags.html.twig') ~}}
   </head>
   <body id="page-top">
     <!-- Navigation -->
