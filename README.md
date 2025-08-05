@@ -16,5 +16,5 @@ php cecil.phar serve --clear-cache=css
 
 ## Online demos
 
-- Color #1: <https://demo-sass.cecil.app>
+- Color #1: <https://cecilapp.github.io/demo-sass/>
 - Color #2: <https://alt.demo-sass.cecil.app>
