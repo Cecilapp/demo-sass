@@ -1,5 +1,8 @@
-baseurl: https://demo-sass.cecil.app/
+title: Creative
+baseline: Start Bootstrap Theme
+description: An attractive one page Bootstrap theme perfect for creative portfolios and businesses.
+baseurl: https://cecilapp.github.io/demo-sass/
 assets:
   compile:
     variables:
-      primary: '#F05F40' # default color, set here to be overriten in an other context with an env. variable.
+      primary: '#F05F40' # default color, set here to be overridden in another context with an env. variable.
