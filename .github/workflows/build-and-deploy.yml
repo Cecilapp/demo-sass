@@ -5,6 +5,9 @@ on:
     branches: [master, main]
   workflow_dispatch:
 
+env:
+  CECIL_BASEURL: ${{ vars.CECIL_BASEURL || '/' }}
+
 permissions:
   pages: write
   id-token: write

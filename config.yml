@@ -1,7 +1,7 @@
 title: Creative
 baseline: Start Bootstrap Theme
 description: An attractive one page Bootstrap theme perfect for creative portfolios and businesses.
-baseurl: https://cecilapp.github.io/demo-sass/
+baseurl: /
 assets:
   compile:
     variables:
