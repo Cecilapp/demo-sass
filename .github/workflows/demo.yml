@@ -1,16 +1,15 @@
-name: Build and deploy to GitHub Pages
+name: Build and deploy demo
 
 on:
   push:
     branches: [master, main]
   workflow_dispatch:
 
-env:
-  CECIL_BASEURL: ${{ vars.CECIL_BASEURL || '/' }}
-
 permissions:
+  contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -19,28 +18,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v7
+
       - name: Install package dependencies
         if: ${{ hashFiles('static/package.json') != '' }}
         working-directory: static
         run: npm install
-      - name: Setup PHP
+
+      - name: Install PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
-          extensions: mbstring, gd, imagick, intl, gettext
+          php-version: 8.3
+          extensions: mbstring, intl, gettext, fileinfo, gd
+          coverage: none
+
       - name: Build with Cecil
         uses: Cecilapp/Cecil-Action@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
+
   deploy:
-    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
