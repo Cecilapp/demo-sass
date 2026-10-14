@@ -13,4 +13,6 @@
   CECIL_ENV = "preview"
 
 [context.alt.environment]
+  CECIL_BASEURL = "https://alt.demo-sass.cecil.app/"
   CECIL_ASSETS_COMPILE_VARIABLES_PRIMARY = "#3b6777"
+  
