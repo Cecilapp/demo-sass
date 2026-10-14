@@ -2,9 +2,9 @@
   publish = "_site"
   command = "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
 
-[build.environment]
-  #PHP_VERSION = "8.3"
-  #CECIL_CACHE_DIR = "/opt/build/cache/"
+#[build.environment]
+#  PHP_VERSION = "8.3"
+#  CECIL_CACHE_DIR = "/opt/build/cache/"
 
 [context.production.environment]
   CECIL_ENV = "production"
